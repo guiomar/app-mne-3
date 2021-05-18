@@ -110,23 +110,7 @@ with open(fname, 'w') as f:
     if config['drop_channels']:     f.write('drop_channels = {}'.format(config['drop_channels'])+'\n')
     if config['analyze_channels']:  f.write('analyze_channels = {}'.format(config['analyze_channels'])+'\n')
  
-       
-    
-    # SENSOR
 
-    # == STATS ==
-    if config['contrasts']:         f.write("contrasts = {}".format(config['contrasts'])+'\n')
-    if config['decode']:            f.write("decode = {}".format(config['decode'])+'\n')
-    if config['decoding_metric']:   f.write("decoding_metric = {}".format(config['decoding_metric'])+'\n')
-    if config['decoding_n_splits']: f.write("decoding_n_splits = {}".format(config['decoding_n_splits'])+'\n')
-    if config['n_boot']:            f.write("n_boot = {}".format(config['n_boot'])+'\n')
-
-    # == TF ==
-    if config['time_frequency_conditions']:  f.write("time_frequency_conditions = {}".format(config['time_frequency_conditions'])+'\n')
-
-    f.close() 
-
-'''
     # SOURCES
 
     # General Settings
@@ -144,7 +128,8 @@ with open(fname, 'w') as f:
     # Inverse solution
     if config['inverse_method']:    f.write("inverse_method = {}".format(config['inverse_method'])+'\n')
     if config['noise_cov']:         f.write("noise_cov = {}".format(config['noise_cov'])+'\n')
-'''
+
+    f.close() 
 
 
 # Run mne-study-template python script
