@@ -134,6 +134,11 @@ with open(fname, 'w') as f:
     if config['inverse_method']:    f.write("inverse_method = {}".format(config['inverse_method'])+'\n')
     if config['noise_cov']:         f.write("noise_cov = {}".format(config['noise_cov'])+'\n')
 
+
+    #if config['process_er']:        f.write('process_er = {}'.format(config['process_er'])+'\n')
+    process_er=True
+    f.write('process_er = {}'.format(process_er)+'\n')
+
     f.close() 
 
 
