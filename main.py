@@ -33,7 +33,6 @@ deriv_root = 'out_dir'
 
 # Copy the input folder ('output') in the output folder ('out_dir') to have all the data there
 copy_tree(bids_root, os.path.join(__location__,"out_dir"))
-os.remove(os.path.join(__location__,"out_dir","dataset_description.json")) 
 
 
 '''
