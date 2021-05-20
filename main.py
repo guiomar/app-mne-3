@@ -30,6 +30,9 @@ with open(__location__+'/config.json') as config_json:
 bids_root = str(config['output']) 
 deriv_root = 'out_dir'
 
+# Copy the input folder ('output') in the output folder ('out_dir') to have all the data there
+copy_tree(bids_root, os.path.join(__location__,"out_dir"))
+
 '''
 #study_name = 'ds000246'
 bids_root = str(config['output']) # '/Users/guiomar/Projects/ds000246'
