@@ -13,6 +13,7 @@
 import os
 import json
 from shutil import copyfile
+from distutils.dir_util import copy_tree
 
 # Current path
 __location__ = os.path.realpath(
