@@ -79,9 +79,14 @@ noise_cov = 'emptyroom'
 
 # Create new MNE config .py file
 
+conditions = ['Auditory', 'Visual', 'Auditory/Left', 'Auditory/Right']
+
+
 fname = 'mne_config.py'
 
 with open(fname, 'w') as f: 
+
+    f.write("conditions = {}".format(conditions)+'\n')
 
     # == GENERAL SETTINGS ==
 
