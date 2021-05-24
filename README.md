@@ -1,4 +1,4 @@
-# MNE-BIDS-Pipeline: MEEG preprocessing
+# MNE-BIDS-Pipeline: MEEG source analysis
 
 This Brainlife App analyses MEG (and EEG) data at the source-level using MNE-BIDS-Pipeline (https://mne.tools/mne-bids-pipeline).
 
@@ -43,6 +43,7 @@ Gramfort A, Luessi M, Larson E, Engemann DA, Strohmeier D, Brodbeck C, Parkkonen
 NeuroImage, 86:446–460, 2014. https://doi.org/10.1016/j.neuroimage.2013.10.027.
   
   
+  --
   
 #### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
 
