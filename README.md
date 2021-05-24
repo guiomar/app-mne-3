@@ -1,5 +1,8 @@
 # MNE-BIDS-Pipeline: MEEG source analysis
 
+[![Abcdspec-compliant](https://img.shields.io/badge/ABCD_Spec-v1.1-green.svg)](https://github.com/brain-life/abcd-spec)
+[![Run on Brainlife.io](https://img.shields.io/badge/Brainlife-bl.app.521-blue.svg)](https://doi.org/10.25663/brainlife.app.521)
+
 This Brainlife App analyses MEG (and EEG) data at the source-level using MNE-BIDS-Pipeline (https://mne.tools/mne-bids-pipeline).
 
 ## Authors
