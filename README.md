@@ -42,8 +42,7 @@ Gramfort A, Luessi M, Larson E, Engemann DA, Strohmeier D, Brodbeck C, Parkkonen
 **MNE software for processing MEG and EEG data**  
 NeuroImage, 86:446–460, 2014. https://doi.org/10.1016/j.neuroimage.2013.10.027.
   
-  
   --
-  
+
 #### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
 
