@@ -10,7 +10,8 @@ This Brainlife App analyses MEG (and EEG) data at the source-level using MNE-BID
 - Aurore Bussalb (aurore.bussalb@icm-institute.org)
 - Soichi Hayashi (hayashis@iu.edu)
 
-## References
+## Citations
+We kindly ask that you cite the following articles when publishing papers and code using this code. 
 
 *MEEG Pipeline:*  
 Jas M, Larson E, Engemann DA, Leppäkangas J, Taulu S, Hämäläinen M, Gramfort A.  
@@ -40,4 +41,6 @@ Frontiers in Neuroscience, 7(267):1–13, 2013. https://doi.org/10.3389/fnins.20
 Gramfort A, Luessi M, Larson E, Engemann DA, Strohmeier D, Brodbeck C, Parkkonen L, and Hämäläinen MS.  
 **MNE software for processing MEG and EEG data**  
 NeuroImage, 86:446–460, 2014. https://doi.org/10.1016/j.neuroimage.2013.10.027.
+
+#### MIT Copyright (c) 2020 brainlife.io The University of Texas at Austin and Indiana University
 
